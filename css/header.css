@@ -1,24 +1,51 @@
 .container{
   font-family: 'Poppins', sans-serif;
 }
+.logo{
+  justify-self: center;
+  margin:auto;
+}
 .bg-01{
   background-image: url(/assets/bg-01.svg);
   background-size:cover;
   padding-bottom: 40px;
 }
 .Bg__frase{
-  background-color: #9B4FBA;
+  padding: 0 0.5rem;
+  z-index: 1;
   width: max-content;
-  border-radius: 3px;
-  padding: 2px 3px;
   font-weight: bold;
   font-size: 1rem;
+  position: relative;
+}
+.Bg__frase::after{
+  border-radius: 3px;
+  padding: 4px 4px;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #9B4FBA;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  animation: bgCresce 2s linear;
 }
 .educational{
-  background-color: #009ACB;
   font-size: 0.8rem;
   font-weight: 400;
 }
+.educational:after{
+  background-color: #009ACB;
+}
 .links{
   font-size: 0.8rem;
+}
+@keyframes bgCresce{
+  from{
+    width: 0;
+  }
+  to{
+    width: 100%;
+  }
 }

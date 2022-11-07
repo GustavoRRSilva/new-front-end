@@ -44,6 +44,9 @@
 
 .frase__conteudo{
     font-size: 0.6rem;
+   
+}
+.frase__conteudo::after{
     background: #27B01A;
 }
 .dentro__conteudo{
