@@ -7,32 +7,32 @@ var conteudo = {
             titulo:"Text Random",
             autor:"/assets/img__autor.svg",
             nome_autor:"Gustavo",
-            data_lançamento:"nov,11,2022"
+            data_lançamento:"nov,05 2022"
         },
         {
             tag:"Nature",
             titulo:"Text Random",
             autor:"/assets/img__autor.svg",
             nome_autor:"Gustavo",
-            data_lançamento:"nov,11,2022"
+            data_lançamento:"nov,05 2022"
         },
         {
             tag:"Nature",
             titulo:"Text Random",
             autor:"/assets/img__autor.svg",
             nome_autor:"Gustavo",
-            data_lançamento:"nov,11,2022"
+            data_lançamento:"nov,05 2022"
         },
         {
             tag:"Nature",
             titulo:"Text Random",
             autor:"/assets/img__autor.svg",
             nome_autor:"Gustavo",
-            data_lançamento:"nov,11,2022"
+            data_lançamento:"nov,05 2022"
         }
     ]
 }
-function teste(){
+window.onload = function criaMaisConteudos(){
 
 for (let i = 0; i < 4; i++) {
     var conteudinho= '<p class="Bg__frase frase__conteudo dentro__conteudo">'+ conteudo.conteudos[i].tag +"</p>";
