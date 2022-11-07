@@ -1,0 +1,33 @@
+.ranking{
+    padding: 5px;
+    background-image: url(/assets/backgroundRanking.svg);
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    align-content: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.colocado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ranking p{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.primeiro{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.segundo{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.terceiro{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
