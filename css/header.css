@@ -1,9 +1,10 @@
 .container{
   font-family: 'Poppins', sans-serif;
 }
-.container{
+.bg-01{
   background-image: url(/assets/bg-01.svg);
   background-size:cover;
+  padding-bottom: 40px;
 }
 .Bg__frase{
   background-color: #9B4FBA;

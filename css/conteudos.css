@@ -1,3 +1,11 @@
+
+.conteudo__noticia{
+    padding-bottom: 20px;
+}
+.conteudos{
+
+    margin-top: -20px;
+}
 .imagem__conteudo{
     display: grid;
     grid-template-columns:  repeat(4,auto);
@@ -10,17 +18,17 @@
     height: 100px;
     padding-bottom:5px;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     grid-template-areas: 
     "frase frase frase frase"
     "texto texto texto texto"
-    "imagem autor relogio data "
+    "imagem autor relogio relogio "
     ;
     align-items: center;
 }
 .Bg__frase {
    grid-area: frase;
-   margin-top: 3px;
+   margin-top: 5px;
 }
 .titulo__conteudo {
    grid-area: texto;
@@ -33,16 +41,17 @@
 .nome__autor__conteudo {
     grid-area: autor;
 }
-.relogio__conteudo {
-   grid-area: relogio;
-}
-.data__hora__conteudo {
- grid-area: data;
-}
+
 .frase__conteudo{
     font-size: 0.6rem;
     background: #27B01A;
 }
 .dentro__conteudo{
-    margin-left: 4px;
+
+    margin-left: 10px;
+}
+.relogio{
+    grid-area: relogio;
+    align-items: center;
+    column-gap: 2px;
 }
