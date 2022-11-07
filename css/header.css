@@ -1,0 +1,23 @@
+.container{
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  background-image: url(/assets/bg-01.svg);
+  background-size:cover;
+}
+.Bg__frase{
+  background-color: #9B4FBA;
+  width: max-content;
+  border-radius: 3px;
+  padding: 2px 3px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.educational{
+  background-color: #009ACB;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.links{
+  font-size: 0.8rem;
+}

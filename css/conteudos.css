@@ -1,0 +1,48 @@
+.imagem__conteudo{
+    display: grid;
+    grid-template-columns:  repeat(4,auto);
+    grid-template-rows: auto 1fr auto auto;
+    align-content: center;
+    background-image: url(/assets/imagemConteudo.svg);
+    border-radius: 4px;
+    background-size: cover;
+    width: 160px;
+    height: 100px;
+    padding-bottom:5px;
+    color: white;
+    font-size: 0.7rem;
+    grid-template-areas: 
+    "frase frase frase frase"
+    "texto texto texto texto"
+    "imagem autor relogio data "
+    ;
+    align-items: center;
+}
+.Bg__frase {
+   grid-area: frase;
+   margin-top: 3px;
+}
+.titulo__conteudo {
+   grid-area: texto;
+   align-self: flex-end;
+   margin-bottom: 4px;
+}
+.autor__conteudo {
+   grid-area: imagem;
+}
+.nome__autor__conteudo {
+    grid-area: autor;
+}
+.relogio__conteudo {
+   grid-area: relogio;
+}
+.data__hora__conteudo {
+ grid-area: data;
+}
+.frase__conteudo{
+    font-size: 0.6rem;
+    background: #27B01A;
+}
+.dentro__conteudo{
+    margin-left: 4px;
+}
