@@ -8,6 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/conteudos.css">
+    <link rel="stylesheet" href="css/menu-lateral.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/mais-conteudos.css">
     <link rel="stylesheet" href="css/ranking.css">
@@ -18,8 +19,27 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container relative">
         <div class="bg-01 flex flex-col gap-6">
+            <div class="menu-lateral absolute">
+                <button class="fechar">x</button>
+                <div class="opcao">
+                    <img src="assets/home__icon.svg" alt="" class="imagem__opcao">
+                    <p>Home</p>
+                </div>
+                <div class="opcao">
+                    <img src="assets/perfilIcon.svg" alt="" class="imagem__opcao">
+                    <p>Perfil</p>
+                </div>
+                <div class="opcao">
+                    <img src="assets/rankingIcon.svg" alt="" class="imagem__opcao">
+                    <p>Ranking</p>
+                </div>
+                <div class="opcao">
+                    <img src="assets/interrogacaoi.svg" alt="" class="imagem__opcao">
+                    <p>Quem Somos</p>
+                </div>
+            </div>
             <header class="flex pt-1 items-center">
                 <img src="assets/charm_menu-hamburger.svg" alt="" class="menu w-6">
                 <h1 class="logo flex items-center m-auto">
@@ -139,6 +159,7 @@
             AQUI VAI SER O FOOTER
         </footer>
     </div>
+    <script src="js/menu-lateral.js"></script>
 </body>
 
 </html>
