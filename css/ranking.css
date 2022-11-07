@@ -1,5 +1,5 @@
 .ranking{
-    padding: 5px;
+    padding: 10px;
     background-image: url(/assets/backgroundRanking.svg);
     display: grid;
     grid-template-columns: repeat(3,auto);
@@ -8,6 +8,7 @@
     justify-content: center;
     row-gap: 10px;
     column-gap: 10px;
+    background-size: cover;
 }
 .colocado{
     display: flex;
