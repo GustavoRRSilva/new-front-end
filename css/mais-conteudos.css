@@ -1,3 +1,9 @@
+.Nature::before{
+background: #000;
+
+}
+
+
 .mais_conteudos{
     display: grid;
     grid-template-rows: repeat(3,auto);

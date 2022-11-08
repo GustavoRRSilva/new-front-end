@@ -46,8 +46,11 @@
     font-size: 0.6rem;
    
 }
-.frase__conteudo::after{
+.Nature::after{
     background: #27B01A;
+}
+.Water::after{
+    background: #00B4CB;
 }
 .dentro__conteudo{
 
