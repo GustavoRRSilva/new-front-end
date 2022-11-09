@@ -24,3 +24,14 @@ footer{
     width: 100vw;
     height: 50px;
 }
+/*teste swipper*/
+.swiper-button-next::after{
+    content: url(/assets/arrow-rigth.svg) !important;
+}
+.swiper-button-prev::after{
+    content: url(/assets/arrow-left.svg) !important;
+}
+.swiper-slide{
+    margin-left:0  !important;
+    margin-right: 30px  !important;
+}
