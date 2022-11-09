@@ -55,7 +55,6 @@ for (let i = 0; i < 4; i++) {
     
     //<p class="Bg__frase frase__conteudo dentro__conteudo">Nature</p><h2 class="titulo__conteudo dentro__conteudo">Text Random</h2><img src = "/assets/img__autor.svg" alt class="autor__conteudo dentro__conteudo"></img><p class="nome_autor_conteudo">Gustavo</p><div class="flex relogio"><img src="/assets/img__relogio.svg" alt="" class="relogio__conteudo dentro__conteudo relogio__teste"><p class="data__hora__conteudo ">nov,05 2022</div>
 }
-    
 }
 
 
