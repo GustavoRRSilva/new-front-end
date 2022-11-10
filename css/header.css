@@ -1,9 +1,13 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+.contain{
+  width: 100%;
+}
 .logo{
   justify-self: center;
   margin:auto;
+  padding-left: 5px;
 }
 .bg-01{
   background-image: url(/assets/bg-01.svg);
@@ -17,6 +21,7 @@
   font-weight: bold;
   font-size: 1rem;
   position: relative;
+  margin-left: 5px;
 }
 .Bg__frase::after{
   border-radius: 3px;
@@ -40,6 +45,9 @@
 }
 .links{
   font-size: 0.8rem;
+}
+.menu{
+  margin-left: 5px;
 }
 @keyframes bgCresce{
   from{

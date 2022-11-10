@@ -61,3 +61,14 @@
     align-items: center;
     column-gap: 2px;
 }
+@media screen and (min-width:768px) {
+    .relogio__conteudo{
+        width: 1em;
+    }
+    .nome__mais__conteudos{
+        font-size: 1.4em;
+    }
+    .frase__conteudo{
+        font-size: 0.8em;
+    }
+}

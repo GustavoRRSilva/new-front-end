@@ -5,44 +5,36 @@
     padding-bottom: 0.5em;
 }
 .nextRead{
-   display: grid;
-   grid-template-columns: repeat(3,auto);
-   grid-template-rows: repeat(5,auto);
-   justify-content: center;
-   align-content: center;
    width: 80%;
-   
 }
-.text-read{
-    grid-column: 1/4;
-    grid-row: 1/2;
-    font-weight: bold;
-    font-size: 1.2rem;
+.tag{
+    margin-left: 2px;
+    position: relative;
+    z-index: 2;
+    width: max-content;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    font-weight: bolder;
 }
-.img__conteudo{
-    grid-column: 1/2;
-    grid-row: 2/5;
+.textos{
+    color: #FFFFFF;
 }
-.Bg__frase{
-    grid-column: 2/4;
-    grid-row: 2/3;
+.tag::after{
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #9B4FBA;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
 }
-.titulo__conteudo{
-    grid-column: 2/4;
-    grid-row: 3/4;
+.educ::after{
+    background-color: #009ACB;
 }
-.nome_autor_conteudo{
-    grid-column: 3/4;
-    grid-row: 4/5;
-}
-
-.autorn{
-    grid-column: 2/3;
-    grid-row: 4/5;
-    width: 20px;
-}
-.data__hora__conteudo
-{grid-column: 4/5;
-    grid-row: 4/5;
+.pai > img{
+border-radius: 4px;
+padding-right: 4px;
 
 }
