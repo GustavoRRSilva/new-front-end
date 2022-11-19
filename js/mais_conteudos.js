@@ -4,6 +4,7 @@ var conteudo = {
     conteudos:[
         {
             tag:"Water",
+            idNoticia:"/noticia/?id=TITULO1",
             titulo:"O que é crise Hidrica",
             autor:"/assets/gustavoImg.svg",
             nome_autor:"Gustavo",
@@ -12,6 +13,7 @@ var conteudo = {
         },
         {
             tag:"Nature",
+            idNoticia:"/noticia/?id=TITULO2",
             titulo:"Qual a importância da natureza?",
             autor:"/assets/viniImg.svg",
             nome_autor:"Vinicius",
@@ -21,6 +23,7 @@ var conteudo = {
         },
         {
             tag:"Nature",
+            idNoticia:"/noticia/?id=TITULO3",
             titulo:"Porque a amazônia é importante?",
             autor:"/assets/gustavoImg.svg",
             nome_autor:"Gustavo",
@@ -29,6 +32,7 @@ var conteudo = {
         },
         {
             tag:"Water",
+            idNoticia:"/noticia/?id=TITULO4",
             titulo:"Como é o cenario brasileiro diante das crises hidricas?",
             autor:"/assets/veigaImg.svg",
             nome_autor:"Guilherme",
@@ -49,7 +53,7 @@ for (let i = 0; i < 4; i++) {
 
     conteudinho += '<p class="nome_autor_conteudo">'+ conteudo.conteudos[i].nome_autor +"</p></div>";
     conteudinho+= '<div class="flex relogio ">'+'<img src="/assets/img__relogio.svg" alt="" class="relogio__conteudo dentro__conteudo relogio__teste">'+'<p class="data__hora__conteudo ">'+conteudo.conteudos[i].data_lançamento+'</div>';
-    conteudoCompleto = '<a href="#" class="imagem__conteudo '+ conteudo.conteudos[i].background +'">' + conteudinho + '</a>';
+    conteudoCompleto = '<a href="'+conteudo.conteudos[i].idNoticia+ '"class="imagem__conteudo '+ conteudo.conteudos[i].background +'">' + conteudinho + '</a>';
     console.log(conteudoCompleto)
     $(".testa").append(conteudoCompleto)
     
