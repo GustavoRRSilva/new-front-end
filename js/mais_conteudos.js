@@ -4,8 +4,8 @@ var conteudo = {
     conteudos:[
         {
             tag:"Water",
-            titulo:"Text Random",
-            autor:"/assets/img__autor.svg",
+            titulo:"O que é crise Hidrica",
+            autor:"/assets/gustavoImg.svg",
             nome_autor:"Gustavo",
             data_lançamento:"nov,05 2022",
             background:"bg-[url(/assets/imagemConteudoTorneira.svg)]"
@@ -13,8 +13,8 @@ var conteudo = {
         {
             tag:"Nature",
             titulo:"Text Random",
-            autor:"/assets/img__autor.svg",
-            nome_autor:"Gustavo",
+            autor:"/assets/viniImg.svg",
+            nome_autor:"Vinicius",
             data_lançamento:"nov,05 2022",
             background:"bg-[url(/assets/imagemConteudoTerra.svg)]",
             
@@ -22,16 +22,16 @@ var conteudo = {
         {
             tag:"Nature",
             titulo:"Text Random",
-            autor:"/assets/img__autor.svg",
+            autor:"/assets/gustavoImg.svg",
             nome_autor:"Gustavo",
             data_lançamento:"nov,05 2022",
             background:"bg-[url(/assets/imagemConteudo.svg)]"
         },
         {
             tag:"Water",
-            titulo:"Text Random",
-            autor:"/assets/img__autor.svg",
-            nome_autor:"Gustavo",
+            titulo:"Como é o cenario brasileiro diante das crises hidricas?",
+            autor:"/assets/veigaImg.svg",
+            nome_autor:"Guilherme",
             data_lançamento:"nov,05 2022",
             background:"bg-[url(/assets/imagemConteudoOceano.svg)]"
             
