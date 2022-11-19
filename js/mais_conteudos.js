@@ -13,7 +13,7 @@ var conteudo = {
         },
         {
             tag:"Nature",
-            idNoticia:"/noticia/?id=TITULO",
+            idNoticia:"/noticia/?id=TITULO2",
             titulo:"Qual a importância da natureza?",
             autor:"/assets/viniImg.svg",
             nome_autor:"Vinicius",
@@ -43,10 +43,10 @@ var conteudo = {
     ]
 }
 window.onload = function criaMaisConteudos(){
-
+ 
 for (let i = 0; i < 4; i++) {
-    scroll.scroll(100,0),
-    setTimeout(voltar,2000)
+   
+   
 
 
     var conteudinho= '<p class="Bg__frase frase__conteudo dentro__conteudo '+conteudo.conteudos[i].tag+'">'+ conteudo.conteudos[i].tag +"</p>";
@@ -61,13 +61,26 @@ for (let i = 0; i < 4; i++) {
     console.log(conteudinho)
     $(".testa").append(conteudoCompleto)
     
-  
-}
-}
-
-
-
-function voltar (){
+    var scroll = document.querySelector(".noticiasDestaque")
     scroll.scroll(0,0)
- 
+    setTimeout(() => {
+        for (let index = 0; index < 150; index++) {
+            setTimeout(() => {
+             scroll.scroll(index,0)
+            }, 50);
+            console.log(index)
+        } 
+    }, 0);
+   setTimeout(() => {
+    for (let index = 100; index > 0; index--) {
+        setTimeout(() => {
+         scroll.scroll(index,0)
+        }, 50);
+       
+        console.log(index)
+          
+      } 
+   }, 1000);
 }
+}
+
