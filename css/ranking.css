@@ -32,4 +32,10 @@
     grid-column: 2/3;
     grid-row: 3/4;
 }
-/*teste bootstrap*/
+.img_primeiro{
+}
+.coroa_primeiro{
+    position: relative;
+    z-index: 1;
+    top: 0.5rem;
+}

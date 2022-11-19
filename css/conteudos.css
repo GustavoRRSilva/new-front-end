@@ -1,12 +1,12 @@
 
-.conteudo__noticia{
+.conteudo__noticia {
     padding-bottom: 20px;
 }
-.conteudos{
+.conteudos {
 
     margin-top: -20px;
 }
-.imagem__conteudo{
+.imagem__conteudo {
     display: grid;
     grid-template-columns:  repeat(4,auto);
     grid-template-rows: auto 1fr auto auto;
@@ -42,21 +42,19 @@
     grid-area: autor;
 }
 
-.frase__conteudo{
+.frase__conteudo {
     font-size: 0.6rem;
-   
 }
-.Nature::after{
+.Nature::after {
     background: #27B01A;
 }
-.Water::after{
+.Water::after {
     background: #00B4CB;
 }
-.dentro__conteudo{
-
+.dentro__conteudo {
     margin-left: 10px;
 }
-.relogio{
+.relogio {
     grid-area: relogio;
     align-items: center;
     column-gap: 2px;

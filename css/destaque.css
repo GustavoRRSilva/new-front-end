@@ -11,6 +11,8 @@
 }
 ::-webkit-scrollbar-thumb{
     background-color: #00CB51;
+    width: 5px;
+  margin-left: 20px;
 }
 .noticiasDestaque{
     overflow-x: scroll;

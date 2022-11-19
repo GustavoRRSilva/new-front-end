@@ -13,7 +13,7 @@ var conteudo = {
         },
         {
             tag:"Nature",
-            idNoticia:"/noticia/?id=TITULO2",
+            idNoticia:"/noticia/?id=TITULO",
             titulo:"Qual a importância da natureza?",
             autor:"/assets/viniImg.svg",
             nome_autor:"Vinicius",
@@ -45,6 +45,10 @@ var conteudo = {
 window.onload = function criaMaisConteudos(){
 
 for (let i = 0; i < 4; i++) {
+    scroll.scroll(100,0),
+    setTimeout(voltar,2000)
+
+
     var conteudinho= '<p class="Bg__frase frase__conteudo dentro__conteudo '+conteudo.conteudos[i].tag+'">'+ conteudo.conteudos[i].tag +"</p>";
 
     conteudinho += '<h2 class="titulo__conteudo dentro__conteudo">'+ conteudo.conteudos[i].titulo +"</h2>";
@@ -54,12 +58,16 @@ for (let i = 0; i < 4; i++) {
     conteudinho += '<p class="nome_autor_conteudo">'+ conteudo.conteudos[i].nome_autor +"</p></div>";
     conteudinho+= '<div class="flex relogio ">'+'<img src="/assets/img__relogio.svg" alt="" class="relogio__conteudo dentro__conteudo relogio__teste">'+'<p class="data__hora__conteudo ">'+conteudo.conteudos[i].data_lançamento+'</div>';
     conteudoCompleto = '<a href="'+conteudo.conteudos[i].idNoticia+ '"class="imagem__conteudo '+ conteudo.conteudos[i].background +'">' + conteudinho + '</a>';
-    console.log(conteudoCompleto)
+    console.log(conteudinho)
     $(".testa").append(conteudoCompleto)
     
-    //<p class="Bg__frase frase__conteudo dentro__conteudo">Nature</p><h2 class="titulo__conteudo dentro__conteudo">Text Random</h2><img src = "/assets/img__autor.svg" alt class="autor__conteudo dentro__conteudo"></img><p class="nome_autor_conteudo">Gustavo</p><div class="flex relogio"><img src="/assets/img__relogio.svg" alt="" class="relogio__conteudo dentro__conteudo relogio__teste"><p class="data__hora__conteudo ">nov,05 2022</div>
+  
 }
 }
 
 
 
+function voltar (){
+    scroll.scroll(0,0)
+ 
+}

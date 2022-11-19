@@ -22,8 +22,6 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
   />
-
-    
     <link rel="stylesheet" href="css/ranking.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -80,7 +78,7 @@
         <main class="flex flex-col">
             <div class="conteudosDestaque">
                 <p class="tituloDestaque">Conteudos em <strong>Destaque!</strong></p>
-                <div class="noticiasDestaque flex gap-x-2">
+                <div class="noticiasDestaque flex gap-x-2" onscroll="Rolou()">
                     <div class="noticia">
                 <a href="#" class="imagem__conteudo bg-[url(/assets/imagemConteudoTerra.svg)]"><p class="Bg__frase frase__conteudo dentro__conteudo Nature">Nature</p><h2 class="titulo__conteudo dentro__conteudo">Text Random</h2><div class="flex autorCompleto justify-center items-center gap-x-1"><img src = "/assets/viniImg.svg" alt class="autor__conteudo dentro__conteudo  ml-0 "></img><p class="nome_autor_conteudo">Vincius</p></div><div class="flex relogio "><img src="/assets/img__relogio.svg" alt="" class="relogio__conteudo dentro__conteudo relogio__teste"><p class="data__hora__conteudo ">nov,05 2022</div></a>
                     </div>
@@ -100,27 +98,28 @@
                 <p class="text-center">Nosso ranking</p>
                 <div class="primeiro colocado">
                     <p>1º</p>
-                    <img src="assets/img__autor.svg" alt="" class="w-16">
+                    <img src="assets/coroa.svg" alt="" class="coroa_primeiro">
+                    <img src="assets/gustavoImg.svg" alt="" class="w-16 img_primeiro">
                     <p>Gustavo#4432</p>
                 </div>
                 <div class="segundo colocado">
                     <p>2º</p>
-                    <img src="assets/img__autor.svg" alt="" class="w-16">
-                    <p>Gustavo#4432</p>
+                    <img src="assets/viniImg.svg" alt="" class="w-16">
+                    <p>Vinicius#1242</p>
                 </div>
                 <div class="terceiro colocado">
                     <p>3º</p>
-                    <img src="assets/img__autor.svg" alt="" class="w-16">
-                    <p>Gustavo#4432</p>
+                    <img src="assets/veigaImg.svg" alt="" class="w-16">
+                    <p>Guilherme#0241</p>
                 </div>
             </div>
         </main>
     </div>
-    <script src="js/mais_conteudos.js"></script>
-    <script src="js/menu-lateral.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="js/footer.js"></script>
-    <script src="js/swiper.js"></script>
+   
 </body>
-
+<script src="js/mais_conteudos.js"></script>
+<script src="js/menu-lateral.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/swiper.js"></script>
 </html>
