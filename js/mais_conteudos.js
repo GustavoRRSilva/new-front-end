@@ -12,7 +12,7 @@ var conteudo = {
         },
         {
             tag:"Nature",
-            titulo:"Text Random",
+            titulo:"Qual a importância da natureza?",
             autor:"/assets/viniImg.svg",
             nome_autor:"Vinicius",
             data_lançamento:"nov,05 2022",
@@ -21,11 +21,11 @@ var conteudo = {
         },
         {
             tag:"Nature",
-            titulo:"Text Random",
+            titulo:"Porque a amazônia é importante?",
             autor:"/assets/gustavoImg.svg",
             nome_autor:"Gustavo",
             data_lançamento:"nov,05 2022",
-            background:"bg-[url(/assets/imagemConteudo.svg)]"
+            background:"bg-[url(/assets/amazonia.webp)]"
         },
         {
             tag:"Water",
@@ -33,7 +33,7 @@ var conteudo = {
             autor:"/assets/veigaImg.svg",
             nome_autor:"Guilherme",
             data_lançamento:"nov,05 2022",
-            background:"bg-[url(/assets/imagemConteudoOceano.svg)]"
+            background:"bg-[url(/assets/crisehidrica.webp)]"
             
         }
     ]
