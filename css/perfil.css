@@ -11,8 +11,7 @@ main{
 .conteudoPessoa{
     background: linear-gradient(180deg, #8ABDE1 0%, #6B3E90 100%);
 border-radius: 18px;
-width: 90%;
-height: 500px;
+width:90vw;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -33,11 +32,20 @@ font-weight: bold;
 .sobre,.hobbies{
     font-size: 1.2em;
 }
+.imgPerfil,.infoSobre,.sobre,.hobbies,ul{
+    padding: 0.4em;
+}
 ul{
     list-style-type:disc;
 }
 @keyframes imagem{
-    0%{-webkit-box-shadow: 4px 4px 30px 10px #166078;}
-    50%{-webkit-box-shadow: 6px 6px 60px 25px #1D7A7E;}
-    100%{-webkit-box-shadow: 4px 4px 30px 10px #166078;}
+    0%{-webkit-box-shadow: 4px 4px 30px 10px #a513fe;}
+    50%{-webkit-box-shadow: 6px 6px 30px 10px #7b0ad7;}
+    100%{-webkit-box-shadow: 4px 4px 30px 10px #a513fe;}
   }
+.conteudos{
+    overflow-x: scroll;
+    display: flex;
+    width: 95vw;
+    column-gap: 10px;
+}
