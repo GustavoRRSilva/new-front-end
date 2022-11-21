@@ -1,0 +1,43 @@
+.bodyPerfil{
+    background-image: url(/assets/bg-perfil.svg);
+}
+main{
+    width: 100vw;
+    height: calc(100vh - 36px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudoPessoa{
+    background: linear-gradient(180deg, #8ABDE1 0%, #6B3E90 100%);
+border-radius: 18px;
+width: 90%;
+height: 500px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+color: #fff;
+font-weight: bold;
+
+}
+.imgPerfil{
+    width: 6rem;
+    animation: imagem 3s infinite linear;
+    border-radius: 100%;
+}
+.infoSobre{
+    font-size: 0.9em;
+    width: 80%;
+}
+.sobre,.hobbies{
+    font-size: 1.2em;
+}
+ul{
+    list-style-type:disc;
+}
+@keyframes imagem{
+    0%{-webkit-box-shadow: 4px 4px 30px 10px #166078;}
+    50%{-webkit-box-shadow: 6px 6px 60px 25px #1D7A7E;}
+    100%{-webkit-box-shadow: 4px 4px 30px 10px #166078;}
+  }
