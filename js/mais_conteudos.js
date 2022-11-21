@@ -43,14 +43,14 @@ var conteudo = {
 window.onload = function criaMaisConteudos() {
   for (let i = 0; i < 4; i++) {
     var conteudinho =
-      '<p class="Bg__frase frase__conteudo dentro__conteudo ' +
+      '<p class="Bg__frase frase__conteudo dentro__conteudo' +
       conteudo.conteudos[i].tag +
       '">' +
       conteudo.conteudos[i].tag +
       "</p>";
 
     conteudinho +=
-      '<h2 class="titulo__conteudo dentro__conteudo">' +
+      '<h2 class="titulo__conteudo dentro__conteudo  mais__conteudoP">' +
       conteudo.conteudos[i].titulo +
       "</h2>";
 

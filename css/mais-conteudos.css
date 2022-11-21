@@ -15,27 +15,19 @@
   grid-row: 1/3;
 }
 .mais_conteudos .imagem__conteudo {
-  width: 11rem;
-  height: 7.5rem;
+  width: 47vw;
+  height: 12vh;
 }
 
 .d-block a {
   width: 100%;
 }
-@media screen and (min-width: 768px) {
-  .mais_conteudos .imagem__conteudo {
-    width: 20rem;
-    height: 10rem;
-  }
-  .imagem__conteudo {
-    font-size: 1.2em;
-  }
-  .autor__conteudo {
-    width: 1.1em;
-  }
+.mais__conteudoP{
+  font-size: 2.5vw;
 }
-@media screen and (width <= 354px) {
-  .mais_conteudos .imagem__conteudo {
-    width: 9.4rem;
-  }
+
+@media screen and (min-width:477px) {
+.mais_conteudos .imagem__conteudo{
+  height: 17vh;
+}
 }
