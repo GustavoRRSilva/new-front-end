@@ -66,7 +66,7 @@ window.onload = function criaMaisConteudos() {
       "</p></div>";
     conteudinho +=
       '<div class="flex relogio ">' +
-      '<img src="/assets/img__relogio.svg" alt="" class="relogio__conteudo dentro__conteudo relogio__teste">' +
+      '<img src="/assets/img__relogio.svg" alt="" class="relogio__conteudo  relogio__teste ">' +
       '<p class="data__hora__conteudo ">' +
       conteudo.conteudos[i].data_lançamento +
       "</div>";
@@ -86,7 +86,7 @@ window.onload = function criaMaisConteudos() {
       for (let index = 0; index < 150; index++) {
         setTimeout(() => {
           scroll.scroll(index, 0);
-        }, 50);
+        }, 100);
       }
     }, 0);
     setTimeout(() => {

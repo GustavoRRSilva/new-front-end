@@ -1,25 +1,25 @@
- strong{
-    color: #00CB51;
+strong {
+  color: #00cb51;
 }
-.conteudosDestaque{
-    margin-left: 5px;
-    padding-bottom: 0.5rem;
+.conteudosDestaque {
+  margin-left: 5px;
+  padding-bottom: 0.5rem;
 }
-::-webkit-scrollbar{
-    background: #9B4FBA;
-    height: 5px;
+::-webkit-scrollbar {
+  background: #9b4fba;
+  height: 5px;
 }
-::-webkit-scrollbar-thumb{
-    background-color: #00CB51;
-    width: 5px;
+::-webkit-scrollbar-thumb {
+  background-color: #00cb51;
+  width: 5px;
   margin-left: 20px;
 }
-.noticiasDestaque{
-    overflow-x: scroll;
-    flex-wrap: nowrap;
+.noticiasDestaque {
+  overflow-x: scroll;
+  flex-wrap: nowrap;
 }
-.tituloDestaque{
-    text-align: center;
-    padding: 0.3rem;
-    font-weight: bold;
+.tituloDestaque {
+  text-align: center;
+  padding: 0.3rem;
+  font-weight: bold;
 }

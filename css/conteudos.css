@@ -1,72 +1,69 @@
-
 .conteudo__noticia {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .conteudos {
-
-    margin-top: -20px;
+  margin-top: -20px;
 }
 .imagem__conteudo {
-    display: grid;
-    grid-template-columns:  repeat(4,auto);
-    grid-template-rows: auto 1fr auto auto;
-    align-content: center;
-    background-image: url(/assets/imagemConteudo.svg);
-    border-radius: 4px;
-    background-size: cover;
-    width: 10rem;
-    height: 6rem;
-    padding-bottom:5px;
-    color: white;
-    font-size: 0.6rem;
-    grid-template-areas: 
-    "frase frase frase frase"
-    "texto texto texto texto"
-    "imagem autor relogio relogio "
-    ;
-    align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto 1fr auto auto;
+  align-content: center;
+  background-image: url(/assets/imagemConteudo.svg);
+  border-radius: 4px;
+  background-size: cover;
+  width: 10rem;
+  height: 6rem;
+  padding-bottom: 5px;
+  color: white;
+  font-size: 0.6rem;
+  grid-template-areas:
+    "frase frase frase"
+    "texto texto texto"
+    "imagem  relogio relogio ";
+  align-items: center;
 }
 .Bg__frase {
-   grid-area: frase;
-   margin-top: 5px;
+  grid-area: frase;
+  margin-top: 5px;
 }
 .titulo__conteudo {
-   grid-area: texto;
-   align-self: flex-end;
-   margin-bottom: 4px;
+  grid-area: texto;
+  align-self: flex-end;
+  margin-bottom: 4px;
 }
-.autor__conteudo {
-   grid-area: imagem;
-}
-.nome__autor__conteudo {
-    grid-area: autor;
+.autorCompleto{
+    grid-area: imagem;
 }
 
 .frase__conteudo {
-    font-size: 0.6rem;
+  font-size: 0.6rem;
 }
 .Nature::after {
-    background: #27B01A;
+  background: #27b01a;
 }
 .Water::after {
-    background: #00B4CB;
+  background: #00b4cb;
 }
 .dentro__conteudo {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 .relogio {
-    grid-area: relogio;
-    align-items: center;
-    column-gap: 2px;
+  grid-area: relogio;
+  align-items: center;
+  column-gap: 2px;
+  justify-self: flex-end;
+  margin-right: 1px;
 }
-@media screen and (min-width:768px) {
-    .relogio__conteudo{
-        width: 1em;
-    }
-    .nome__mais__conteudos{
-        font-size: 1.4em;
-    }
-    .frase__conteudo{
-        font-size: 0.8em;
-    }
+@media screen and (min-width: 768px) {
+  .relogio__conteudo {
+    width: 1em;
+  }
+  .nome__mais__conteudos {
+    font-size: 1.4em;
+  }
+  .frase__conteudo {
+    font-size: 0.8em;
+  }
 }
+  
