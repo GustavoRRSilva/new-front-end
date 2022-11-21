@@ -32,8 +32,8 @@
   align-self: flex-end;
   margin-bottom: 4px;
 }
-.autorCompleto{
-    grid-area: imagem;
+.autorCompleto {
+  grid-area: imagem;
 }
 
 .frase__conteudo {
@@ -66,4 +66,3 @@
     font-size: 0.8em;
   }
 }
-  
