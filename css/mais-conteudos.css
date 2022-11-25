@@ -14,6 +14,9 @@
   grid-column: 1/3;
   grid-row: 1/3;
 }
+.autorCompleto{
+  margin-left: 5px;
+}
 .mais_conteudos .imagem__conteudo {
   width: 47vw;
   height: 12vh;
@@ -30,4 +33,11 @@
 .mais_conteudos .imagem__conteudo{
   height: 17vh;
 }
+}
+@media screen and (min-width:800px) {
+  .mais_conteudos .imagem__conteudo{
+    width: 35vw;
+    height: 23vh;
+  }
+ 
 }

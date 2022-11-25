@@ -43,19 +43,19 @@ var conteudo = {
 window.onload = function criaMaisConteudos() {
   for (let i = 0; i < 4; i++) {
     var conteudinho =
-      '<p class="Bg__frase frase__conteudo dentro__conteudo' +
+      '<p class="Bg__frase frase__conteudo dentro__conteudo ' +
       conteudo.conteudos[i].tag +
       '">' +
       conteudo.conteudos[i].tag +
       "</p>";
+      console.log(conteudinho)
 
     conteudinho +=
       '<h2 class="titulo__conteudo dentro__conteudo  mais__conteudoP">' +
       conteudo.conteudos[i].titulo +
       "</h2>";
-
     conteudinho +=
-      '<div class="flex autorCompleto justify-center items-center gap-x-1"><img src = "' +
+      '<div class="flex autorCompleto  items-center gap-x-1"><img src = "' +
       conteudo.conteudos[i].autor +
       '" alt class="autor__conteudo dentro__conteudo  ml-0 ">' +
       "</img>";
@@ -78,6 +78,7 @@ window.onload = function criaMaisConteudos() {
       '">' +
       conteudinho +
       "</a>";
+      console.log(conteudinho)
     $(".testa").append(conteudoCompleto);
 
     var scroll = document.querySelector(".noticiasDestaque");
