@@ -1,8 +1,15 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+.body{
+  background: linear-gradient(180deg, #5D0050 0%, #84748C 100%);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
 .contain {
-  width: 100%;
+  background-color: #fff;
+  height: max-content;
 }
 .logo {
   justify-self: center;

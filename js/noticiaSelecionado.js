@@ -54,11 +54,12 @@ var conteudo = {
 };
 const urlParams = new URLSearchParams(window.location.search);
 const id_usuario = urlParams.get("id");
-
+console.log(id_usuario)
 conteudo = conteudo.conteudos.filter((obj) => obj.titulo == id_usuario)[0];
 console.log(conteudo);
-var titulo = (document.querySelector(".titulo-noticia").textContent =
-  conteudo.tituloNoticia);
-var p1 = (document.querySelector(".p1").textContent = conteudo.p1);
-var p2 = (document.querySelector(".p2").textContent = conteudo.p2);
-var p3 = (document.querySelector(".p3").textContent = conteudo.p3);
+
+var titulo = (document.querySelector(".titulo-noticia")).textContent =
+  conteudo.tituloNoticia;
+var p1 =  document.querySelector(".p1").textContent = conteudo.p1;
+var p2 = document.querySelector(".p2").textContent = conteudo.p2;
+var p3 = document.querySelector(".p3").textContent = conteudo.p3;

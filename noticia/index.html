@@ -22,8 +22,8 @@
     <title>Noticia</title>
 </head>
 
-<body class="bg-[url(/assets/bgNoticia.svg)]  overflow-y-visible	overflow-y: visible;">
-    <div class="contain flex flex-col justify-between h-screen">
+<body class="!bg-[url(/assets/bgNoticia.svg)] contain h-screen flex flex-col justify-between">
+    <div class=" flex flex-col justify-between   ">
         <div class="menu-lateral absolute">
             <button class="fechar">x</button>
             <div class="opcao">
@@ -51,18 +51,19 @@
                 </a>
             </div>
         </div>
-        <header class="flex pt-1 items-center ">
+        <header class="flex pt-1 items-center">
             <img src="/assets/charm_menu-hamburger.svg" alt="" class="menu w-8">
             <h1 class="logo flex items-center m-auto pr-8">
                 <img src="/assets/gotas_hover.svg" alt="logo" class="w-5">
                 <p class="text-xl font-bold">EchoWa</p>
             </h1>
         </header>
-        <!--<iframe width="auto" height="auto" src="https://www.youtube.com/embed/8NkhiXFg6dE"
+        
+        <main class="flex justify-center flex-col items-center">
+            <iframe width="80%" height="auto" src="https://www.youtube.com/embed/8NkhiXFg6dE"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen class="pb-2"></iframe>-->>
-        <main class="flex justify-center flex-col items-center">
+                allowfullscreen class="pb-2"></iframe>
             <h1 class="titulo-noticia font-bold text-center text-base mt-4">Como a crise hidrica afeta o país?</h1>
             
             <p class="paragrafo p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quis aspernatur
@@ -81,16 +82,13 @@
                 rem
                 voluptatibus odit voluptates modi!</p>
 
-            <div class="readNext ">
-                 <p>Read N</p>
-                <a href="#" class="imagem__conteudo bg-[url(/assets/imagemConteudoOceano.svg)]"><p class="Bg__frase frase__conteudo dentro__conteudo Water">Water</p><h2 class="titulo__conteudo dentro__conteudo">Text Random</h2><div class="flex autorCompleto justify-center items-center gap-x-1"><img src = "/assets/img__autor.svg" alt class="autor__conteudo dentro__conteudo  ml-0 "></img><p class="nome_autor_conteudo">Gustavo</p></div><div class="flex relogio "><img src="/assets/img__relogio.svg" alt="" class="relogio__conteudo dentro__conteudo relogio__teste"><p class="data__hora__conteudo ">nov,05 2022</div></a>
-            </div>
+            
         </main>
     </div>
 
-    <script src="/js/menu-lateral.js"></script>
+    
+</body>
+<script src="/js/menu-lateral.js"></script>
     <script src="/js/mais_conteudos.js"></script>
     <script src="/js/noticiaSelecionado.js"></script>
-</body>
-
 </html>
