@@ -30,14 +30,14 @@ var conteudo = {
       tituloNoticia: "Como é o cenario brasileiro diante das crises hidricas?",
       linkVideo: "https://www.youtube.com/embed/watch?v=kEiUlcxzXr8",
       p1: "Hídricos são as águas superficiais ou subterrâneas disponíveis para qualquer tipo de uso de região ou bacias . Os recursos hídricos podem ser vistos de varias formas, temos que sempre observar se há uma relação com a agropecuária. Pressupõe a valorização da água em função da sua natureza renovável e fluida.De acordo com o Ministério do Meio Ambiente, a bacia Amazônica, sozinha, escoa um quinto do volume de água doce do mundo, o que representa mais de 60% de toda a disponibilidade hídrica do País. O Norte do Brasil conta com outras importantes fontes hídricas superficiais como Tapajós, Negro, Solimões, Madeira e Juruá.",
-      
+
       p2:"O Brasil possui uma das maiores reservas hídricas do Mundo, concentrando cerca de 12 da água doce superficial disponível no planeta, mamas o contraste na distribuição da água é enorme- A região Norte, com 7 da população, possui 68 da água do País, enquanto o Nordeste, com 29 da população, possui 3, e o Sudeste, com 43 da população, conta com 6. Além disso, problemas como desmatamento das nascentes e a poluição dos rios agravam a situação. Em consequência, 45 da população não têm acesso aos serviços de água tratada e 96 milhões de pessoas vivem sem esgoto sanitário",
       p3:"",
     },
     {
       titulo: "TITULO5",
-      tituloNoticia: "https://www.youtube.com/embed/watch?v=KybOtjRDb_o",
-      linkVideo: "Problemas enfrentados com a seca",
+      tituloNoticia: "Problemas enfrentados com a seca ",
+      linkVideo: "https://www.youtube.com/embed/watch?v=KybOtjRDb_o",
       p1: "A seca é um problema que acontece infelizmente até com certa recorrência no Brasil, além de ser uma grande consequência climática, também faz acontecer várias dificuldades sociais para pessoas que habitam regiões que acaba sendo comprometida com esse tipo de situação. Ela também provoca a falta de recursos econômicos, gerando fome e miséria principalmente em regiões como a do sertão. Várias vezes, as pessoas precisam andar durante horas, em meio ao sol e calor forte, para pegar água, muitas vezes ela está suja e contaminada devido as condições. Com uma alimentação precária e consumo de água de péssima qualidade, os habitantes do sertão nordestino acabam sendo vítimas de muitas doenças.",
       p2: "Uma das piores secas que já ocorreu no Brasil inclusive foi a seca que acometeu o sertão nordestino no início de 2012, trouxe diversos prejuízos para a economia local, incluindo a grande perda na pecuária e em produtos agrário como o milho e o feijão, já na pecuária fez com que muitos gados viessem a óbito graças a falta de água.",
       p3: "",
