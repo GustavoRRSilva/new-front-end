@@ -125,3 +125,9 @@ ul {
 .seta:nth-child(10) {
   animation-delay: 2.25s;
 }
+@media screen and (min-width:860px) {
+  .conteudoPessoa{
+    width: 35vw;
+    height: 30rem;
+  }
+}

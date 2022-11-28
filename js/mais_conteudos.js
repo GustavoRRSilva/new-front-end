@@ -1,5 +1,6 @@
 var testa = document.querySelector(".testa");
 var tbody = document.querySelector(".tbody");
+//Objeto das noticias que serão colocadas quando o site carregar
 var conteudo = {
   conteudos: [
     {
@@ -40,6 +41,7 @@ var conteudo = {
     },
   ],
 };
+//Adiciona as noticias no site 
 window.onload = function criaMaisConteudos() {
   for (let i = 0; i < 4; i++) {
     var conteudinho =
@@ -48,7 +50,6 @@ window.onload = function criaMaisConteudos() {
       '">' +
       conteudo.conteudos[i].tag +
       "</p>";
-      console.log(conteudinho)
 
     conteudinho +=
       '<h2 class="titulo__conteudo dentro__conteudo  mais__conteudoP">' +
@@ -78,9 +79,9 @@ window.onload = function criaMaisConteudos() {
       '">' +
       conteudinho +
       "</a>";
-      console.log(conteudinho)
     $(".testa").append(conteudoCompleto);
 
+    //Faz o evento de scrollar a aba dos conteudos em destaque 
     var scroll = document.querySelector(".noticiasDestaque");
     scroll.scroll(0, 0);
     setTimeout(() => {
