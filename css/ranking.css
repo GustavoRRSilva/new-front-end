@@ -37,14 +37,14 @@
   z-index: 1;
   top: 0.5rem;
 }
-@media screen and (min-width:1024px) {
-  .colocado img{
-    width:4em;
+@media screen and (min-width: 1024px) {
+  .colocado img {
+    width: 4em;
   }
-  .coroa_primeiro{
-    width: 2vw!important;
+  .coroa_primeiro {
+    width: 2vw !important;
   }
-  .ranking{
+  .ranking {
     font-size: 2em;
   }
 }

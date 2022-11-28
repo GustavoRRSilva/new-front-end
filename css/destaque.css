@@ -23,8 +23,13 @@ strong {
   padding: 0.3rem;
   font-weight: bold;
 }
-@media screen and (min-width:786px) {
-  .tituloDestaque{
+@media screen and (min-width: 786px) {
+  .tituloDestaque {
     font-size: 1.5rem;
+  }
+}
+@media screen and (min-width:1036px) {
+  .noticiasDestaque{
+    justify-content: space-around;
   }
 }

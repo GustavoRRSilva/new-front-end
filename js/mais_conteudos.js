@@ -41,7 +41,7 @@ var conteudo = {
     },
   ],
 };
-//Adiciona as noticias no site 
+//Adiciona as noticias no site
 window.onload = function criaMaisConteudos() {
   for (let i = 0; i < 4; i++) {
     var conteudinho =
@@ -81,7 +81,7 @@ window.onload = function criaMaisConteudos() {
       "</a>";
     $(".testa").append(conteudoCompleto);
 
-    //Faz o evento de scrollar a aba dos conteudos em destaque 
+    //Faz o evento de scrollar a aba dos conteudos em destaque
     var scroll = document.querySelector(".noticiasDestaque");
     scroll.scroll(0, 0);
     setTimeout(() => {
