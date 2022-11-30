@@ -58,3 +58,8 @@
     width: 100%;
   }
 }
+@media screen and (min-width:768px) {
+  .menu{
+    width: 3em !important;
+  }
+}
